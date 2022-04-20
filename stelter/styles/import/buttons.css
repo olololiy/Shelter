@@ -1,0 +1,36 @@
+/* button_primary */
+
+
+/* Auto layout */
+
+
+
+.button {
+  border-radius: 100px;
+  /*padding: 15px 45px;*/
+  border: 2px solid #F1CDB3;
+}
+.button:hover {
+  background: #FDDCC4;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/*.normal-size{*/
+/*  width: 207px;*/
+/*  height: 52px;*/
+/*  padding: 15px 45px;*/
+/*}*/
+
+.small-size{
+  /*margin: 0;*/
+}
+
+.white{
+  background: white;
+}
+.beige{
+  background: #F1CDB3;
+}

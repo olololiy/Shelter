@@ -1,0 +1,223 @@
+@import "../../styles/import/buttons.css";
+@font-face {
+  font-family: Georgia;
+  src: url("../../assets/fonts/Georgia");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1280px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: rgb(91, 72, 58);
+  background: linear-gradient(90deg, rgb(91, 72, 58) 0%, rgb(38, 36, 37) 50%, rgb(33, 31, 32) 100%);
+}
+header .text-left {
+  padding: 60px 40px 0 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .text-left .title {
+  font-family: Georgia, sans-serif;
+  font-size: 32px;
+  color: #F1CDB3;
+  letter-spacing: 0.06em;
+}
+header .text-left .subtitle {
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  color: #FFFFFF;
+  letter-spacing: 0.1em;
+}
+header menu {
+  margin: 76px 40px 80px 40px;
+  display: flex;
+  color: #CDCDCD;
+  list-style: none;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+}
+header menu li {
+  margin-left: 35px;
+}
+
+.startScreen {
+  background: rgb(91, 72, 58);
+  background: linear-gradient(90deg, rgb(91, 72, 58) 0%, rgb(38, 36, 37) 50%, rgb(33, 31, 32) 100%);
+}
+.startScreen .startScreenContent {
+  padding: 0 40px 0 40px;
+  display: flex;
+  flex-direction: row;
+}
+.startScreen .startScreenContent .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.startScreen .startScreenContent .content h2 {
+  font-family: Georgia, sans-serif;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 130%;
+  color: #FFFFFF;
+  width: 310px;
+}
+.startScreen .startScreenContent .content .subheading {
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  width: 460px;
+  height: 72px;
+  padding: 42px 0;
+  /* color-dark-s */
+  color: #CDCDCD;
+}
+.startScreen .startScreenContent .content .button {
+  padding: 15px 45px;
+  margin: 0 auto 0 0;
+  font-family: Georgia, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  /* identical to box height, or 22px */
+  letter-spacing: 0.06em;
+  /* color-dark-3xl */
+  color: #292929;
+}
+
+.about .about-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 80px 0 100px 0;
+}
+.about .about-content .content {
+  width: 430px;
+  padding-left: 120px;
+}
+.about .about-content .content h3 {
+  /* h3 */
+  font-family: Georgia, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  width: 370px;
+  /* or 45px */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  /* color-dark-l */
+  color: #545454;
+}
+.about .about-content .content .subheading {
+  padding-top: 25px;
+  /* paragraph-l */
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  /* or 24px */
+  /* color-dark-xl */
+  color: #4C4C4C;
+}
+
+.pets {
+  background: #F6F6F6;
+}
+.pets .pets-content {
+  padding: 0 40px 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pets .pets-content h3 {
+  text-align: center;
+  width: 400px;
+  /* h3 */
+  margin: 80px auto 60px auto;
+  font-family: Georgia, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  /* or 45px */
+  letter-spacing: 0.06em;
+  /* color-dark-l */
+  color: #545454;
+}
+.pets .pets-content .slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pets .pets-content .slider .name, .pets .pets-content .slider .learn_more {
+  text-align: center;
+}
+.pets .pets-content .slider .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pets .pets-content .slider .flip {
+  margin: auto 0;
+  padding: 19px 19px;
+}
+.pets .pets-content .primary {
+  margin: auto;
+  padding: 15px 45px;
+}
+
+.help .help-content {
+  padding: 0 40px 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.help .help-content .list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.help .help-content .list .card {
+  padding: 70px;
+}
+
+.donation {
+  background: #F6F6F6;
+}
+.donation .donation-content {
+  padding: 0 40px 0 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+footer .footer-content {
+  padding: 0 40px 0 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+/*# sourceMappingURL=style.css.map */
