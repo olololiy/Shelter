@@ -1,2 +1,2 @@
 # Shelter
-train my layout
+Training skill of my layout
