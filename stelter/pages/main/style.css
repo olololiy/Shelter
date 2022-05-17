@@ -218,6 +218,36 @@ footer .footer-content {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  background: rgb(91, 72, 58);
+  background: linear-gradient(90deg, rgb(91, 72, 58) 0%, rgb(38, 36, 37) 50%, rgb(33, 31, 32) 100%);
+}
+footer .footer-content .contacts .title {
+  width: 278px;
+  /* h3 */
+  font-family: Georgia, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  /* or 45px */
+  /* color-light-xl */
+  color: #FFFFFF;
+}
+footer .footer-content .contacts .mail {
+  display: flex;
+  flex-direction: row;
+}
+footer .footer-content .contacts .phone {
+  display: flex;
+  flex-direction: row;
+}
+footer .footer-content .locations .boston {
+  display: flex;
+  flex-direction: row;
+}
+footer .footer-content .locations .london {
+  display: flex;
+  flex-direction: row;
 }
 
 /*# sourceMappingURL=style.css.map */
