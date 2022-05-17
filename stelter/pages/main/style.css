@@ -6,24 +6,22 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   width: 1280px;
 }
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.background-default {
+  background: rgb(91, 72, 58);
+  background: linear-gradient(90deg, rgb(91, 72, 58) 0%, rgb(38, 36, 37) 50%, rgb(33, 31, 32) 100%);
 }
 
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: rgb(91, 72, 58);
-  background: linear-gradient(90deg, rgb(91, 72, 58) 0%, rgb(38, 36, 37) 50%, rgb(33, 31, 32) 100%);
 }
 header .text-left {
   padding: 60px 40px 0 40px;

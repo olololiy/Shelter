@@ -8,6 +8,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -16,18 +17,24 @@ body {
 
 .wrapper {
   //margin: 0 40px 0 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  //display: flex;
+  //flex-direction: column;
+  //justify-content: center;
+}
+
+.background-default {
+  background: rgb(91, 72, 58);
+  background: linear-gradient(90deg, rgba(91, 72, 58, 1) 0%, rgba(38, 36, 37, 1) 50%, rgba(33, 31, 32, 1) 100%);
+
 }
 
 header {
   display: flex;
+  //grid-template-columns: 1fr 1fr;
+  //align-content: space-between;
   flex-direction: row;
   justify-content: space-between;
 
-  background: rgb(91, 72, 58);
-  background: linear-gradient(90deg, rgba(91, 72, 58, 1) 0%, rgba(38, 36, 37, 1) 50%, rgba(33, 31, 32, 1) 100%);
 
   .text-left {
     padding: 60px 40px 0 40px;
@@ -225,7 +232,7 @@ header {
         justify-content: center;
       }
 
-      .flip{
+      .flip {
         margin: auto 0;
         padding: 19px 19px;
       }
@@ -282,43 +289,47 @@ footer {
     flex-direction: row;
     background: rgb(91, 72, 58);
     background: linear-gradient(90deg, rgba(91, 72, 58, 1) 0%, rgba(38, 36, 37, 1) 50%, rgba(33, 31, 32, 1) 100%);
-  .contacts{
-    .title{
-      width: 278px;
-      //height: 90px;
+
+    .contacts {
+      .title {
+        width: 278px;
+        //height: 90px;
 
 
+        /* h3 */
 
-      /* h3 */
+        font-family: Georgia, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 130%;
+        /* or 45px */
 
-      font-family: Georgia, sans-serif;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 35px;
-      line-height: 130%;
-      /* or 45px */
+        //letter-spacing: 0.06em;
 
-      //letter-spacing: 0.06em;
+        /* color-light-xl */
 
-      /* color-light-xl */
+        color: #FFFFFF;
+      }
 
-      color: #FFFFFF;
-    }
-    .mail{
-      display: flex;
-      flex-direction: row;
-    }
-    .phone{
-      display: flex;
-      flex-direction: row;
-    }
-  }
-    .locations{
-      .boston{
+      .mail {
         display: flex;
         flex-direction: row;
       }
-      .london{
+
+      .phone {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+
+    .locations {
+      .boston {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .london {
         display: flex;
         flex-direction: row;
       }
