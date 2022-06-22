@@ -1,7 +1,7 @@
-@import "../../styles/import/buttons.css";
+@import "stelter/styles/import/buttons.css";
 @font-face {
   font-family: Georgia;
-  src: url("../../assets/fonts/Georgia");
+  src: url("stelter/assets/fonts/Georgia");
 }
 * {
   margin: 0;
